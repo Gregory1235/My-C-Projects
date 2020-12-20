@@ -5,3 +5,17 @@ C:\Users\Юля\source\repos\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Less
 C:\Users\Юля\source\repos\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.csproj.CoreCompileInputs.cache
 C:\Users\Юля\source\repos\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.exe
 C:\Users\Юля\source\repos\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.pdb
+F:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\bin\Debug\CSharp Lessons.exe.config
+F:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\bin\Debug\CSharp Lessons.exe
+F:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\bin\Debug\CSharp Lessons.pdb
+F:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.csprojAssemblyReference.cache
+F:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.csproj.CoreCompileInputs.cache
+F:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.exe
+F:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.pdb
+E:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\bin\Debug\CSharp Lessons.exe.config
+E:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\bin\Debug\CSharp Lessons.exe
+E:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\bin\Debug\CSharp Lessons.pdb
+E:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.csprojAssemblyReference.cache
+E:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.csproj.CoreCompileInputs.cache
+E:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.exe
+E:\My-C-Projects-main\CSharp Lessons\CSharp Lessons\obj\Debug\CSharp Lessons.pdb

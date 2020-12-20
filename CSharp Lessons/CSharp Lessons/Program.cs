@@ -14,7 +14,7 @@ namespace CSharp_Lessons
             All_Task tasks = new All_Task();
             do
             {
-                choice = Menu(6);
+                choice = Menu(7);
                 switch (choice)
                 {
                     case 1:
@@ -40,6 +40,10 @@ namespace CSharp_Lessons
                     case 6:
                         Console.Clear();
                         tasks.Task_6();
+                        break;
+                    case 7:
+                        Console.Clear();
+                        tasks.Task_7();
                         break;
                 }
             }

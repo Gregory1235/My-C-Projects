@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CSharp_Lessons</RootNamespace>
     <AssemblyName>CSharp Lessons</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,8 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="All_Task.cs" />
+    <Compile Include="Circle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Randomizer.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>

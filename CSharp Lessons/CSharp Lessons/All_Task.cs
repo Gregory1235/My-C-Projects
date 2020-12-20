@@ -232,22 +232,23 @@
              */
             Console.Write("Input First name: ");
             string fName = Console.ReadLine();
-            Console.Write("Input Last name ");
+            Console.Write("Input Last name: ");
             string lName = Console.ReadLine();
-            Console.Write("Input midlle name ");
+            Console.Write("Input midlle name: ");
             string mName = Console.ReadLine();
             Console.Write("Input group: ");
             string group = Console.ReadLine();
-            Console.Write("Input age");
+            Console.Write("Input age: ");
             int age = int.Parse(Console.ReadLine());
             Student student = new Student(fName, lName, mName, group, age);
             int choice = 0;
             do
             {
-                Console.WriteLine("1 - установки/получения оценки");
-                Console.WriteLine("2 - получение среднего балла по заданому предмету");
-                Console.WriteLine("3 - получения максимальной и минимальной оценки");
-                Console.WriteLine("4 - распечатка данных о студенте.");
+                Console.Clear();
+                Console.WriteLine("1 - Установки/получения оценки");
+                Console.WriteLine("2 - Получение среднего балла по заданому предмету");
+                Console.WriteLine("3 - Получения максимальной и минимальной оценки");
+                Console.WriteLine("4 - Распечатка данных о студенте.");
                 Console.Write("Please make your choice...");
                 choice = int.Parse(Console.ReadLine());
                 switch (choice)
@@ -256,24 +257,59 @@
                         Console.Write("Input mark: ");
                         int mark = int.Parse(Console.ReadLine());
                         student.SetMark(mark);
-
+                        Pause();
                         break;
                     case 2:
                         Console.Clear();
-
+                        student.GetAvarage();
+                        Pause();
                         break;
                     case 3:
                         Console.Clear();
-
+                        student.GetMinMax();
+                        Pause();
                         break;
                     case 4:
                         Console.Clear();
                         student.Print();
+                        Pause();
                         break;
                 }
             }
             while (choice != 0);
         }
 
+        public void Task_7()
+        {
+            /*
+             Описать класс, представляющий круг. Предусмотреть методы для создания обьектов, вычисления площади круга, 
+             длины окружности и проверки попадания заданной точки внутрь круга. 
+             Написать программу, демонстрирующую все разработанные элементы класса.
+            */
+            Console.Write("Input radius: ");
+            int radius = int.Parse(Console.ReadLine());
+            Circle circle = new Circle(radius);
+            double area = circle.Area();
+            double l = circle.Length();
+            Console.WriteLine($"Area of a Circle: {area}\nLength of a circle: {l}");
+            Console.Write("Input X: ");
+            double x = double.Parse(Console.ReadLine());
+            Console.Write("Input Y: ");
+            double y = double.Parse(Console.ReadLine());
+            bool result = circle.CheckPoint_In(x, y);
+            if(result == true)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Данная точка попадает во внутрь круга!!!");
+                Console.ResetColor();
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Данная точка НЕ попадает во внутрь круга...");
+                Console.ResetColor();
+            }
+            Pause();
+        }
     }
 }
